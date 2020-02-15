@@ -16,6 +16,18 @@ html {
   top: 10%;
   text-align: center;
 }
+
+.clock-centre {
+  position:absolute;
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  border-radius: 30%;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.25em;
+}
+
 .hand {
   position: absolute;
   background-color: black;
@@ -40,4 +52,36 @@ html {
   width:49%;
   left: 1%;
   height:4px;
+}
+
+
+span {
+  font-size: 2em
+}
+
+.number {
+  position: absolute;
+  clear:both;
+}
+
+.twelve {
+  margin-left: -20px;
+}
+
+.three {
+  right: 5;
+  top:50%;
+  margin-top:-15px;
+}
+
+.six {
+  bottom:0;
+  margin-left: -10px;
+
+}
+
+.nine {
+  left: 5;
+  top:50%;
+  margin-top:-15px;
 }
