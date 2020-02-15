@@ -17,6 +17,7 @@ html {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  transition: all .07s ease;
 }
 
 kbd {

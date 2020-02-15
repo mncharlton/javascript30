@@ -6,8 +6,12 @@ document.addEventListener('keydown', event => {
     sound.play();
 
     key.classList.add('playing')
-    setTimeout(function(){
-        key.classList.remove('playing');
-    }, 200);
+
+    const keys = document.querySelectorAll('.key')
+    keys.forEach(key => key.addEventListener('transitionend', event => {
+      if (event.propertyName === 'transform'){
+        event.target.classList.remove('playing')
+      }
+    }))
   }
 })
