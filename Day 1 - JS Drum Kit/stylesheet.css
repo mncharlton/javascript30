@@ -1,0 +1,30 @@
+html {
+  background-image: url('./drum_kit.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.keys {
+  margin-top: 15%;
+  text-align: center;
+  width: 100%;
+}
+
+.key {
+  border: .2em solid white;
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+kbd {
+  display: block;
+  font-size: 4em;
+}
+
+span {
+  font-family: monospace;
+  font-size: 1.5em;
+}
